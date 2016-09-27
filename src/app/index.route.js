@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('interactive')
+    .module('App')
     .config(routerConfig);
 
   /** @ngInject */

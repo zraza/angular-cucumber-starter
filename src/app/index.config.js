@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('interactive')
+    .module('App')
     .config(config)
     .config(translationConfig)
 
@@ -15,6 +15,7 @@
 
   function translationConfig($translateProvider) {
     $translateProvider.preferredLanguage('en');
+    $translateProvider.useSanitizeValueStrategy('sanitize');
   }
 
 })();

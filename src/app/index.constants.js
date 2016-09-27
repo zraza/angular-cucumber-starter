@@ -3,7 +3,7 @@
   'use strict';
 
   angular
-    .module('interactive')
+    .module('App')
     .constant('moment', moment)
     .constant('_', _)
     .constant('GLOBALS', {

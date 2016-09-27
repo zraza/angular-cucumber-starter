@@ -2,6 +2,6 @@
   'use strict';
 
   angular
-    .module('interactive', ['pascalprecht.translate','restangular','ui.router','translations']);
+    .module('App', ['ngSanitize','pascalprecht.translate','restangular','ui.router','translations']);
 
 })();
